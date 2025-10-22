@@ -122,6 +122,7 @@ veya
 
 
 ##  📸 Chatbot Çıktıları
+ src="https://55ccc9518a5b5308db.gradio.live" 
  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/03cfccfc-1dbd-4ecf-86d3-e80ba2c2d230" />
  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/049c1a85-7675-442d-acf3-4634074cde3e" />
  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/58f652a3-db02-41cd-a261-c44741f6fedf" />
