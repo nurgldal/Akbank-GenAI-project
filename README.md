@@ -78,12 +78,8 @@ E --> F[Gradio UI Output]
 ### 1️⃣ Depoyu Klonla
 - `git clone https://github.com/nurgldal/Akbank-GenAI-project.git`
 
----
-
 ### 2️⃣ Proje Klasörüne Gir
 - `cd Akbank-GenAI-project`
-
----
 
 ### 3️⃣ Sanal Ortam Oluştur ve Aktif Et
 **Windows:**
@@ -94,12 +90,8 @@ E --> F[Gradio UI Output]
 - `python3 -m venv venv`  
 - `source venv/bin/activate`
 
----
-
 ### 4️⃣ Gerekli Kütüphaneleri Kur
 - `pip install -r requirements.txt`
-
----
 
 ### 5️⃣ .env Dosyası Oluştur
 Proje dizinine `.env` adında bir dosya oluştur ve içine kendi API anahtarını ekle:
@@ -109,20 +101,37 @@ Proje dizinine `.env` adında bir dosya oluştur ve içine kendi API anahtarın�
 > Eğer OpenAI kullanıyorsan:  
 > - `OPENAI_API_KEY=senin_api_anahtarın`
 
----
-
 ### 6️⃣ Uygulamayı Çalıştır
 - `python app.py`  
 veya  
 - `python3 app.py`
-
----
 
 ### 7️⃣ Tarayıcıda Aç
 - Terminalde aşağıdaki gibi bir bağlantı göreceksin:  
   `Running on local URL:  http://127.0.0.1:7860`  
 - Bu bağlantıyı tarayıcıya yapıştırarak chatbot arayüzüne ulaşabilirsin 🎨
 
+--- 
+## ⚠️ Sorun Giderme 
+# ❌ ModuleNotFoundError:
+# Bağımlılık eksikse aşağıdaki komutu yeniden çalıştır.
+pip install -r requirements.txt
+
+# ⚠️ .env dosyası okunmuyor:
+# .env dosyasının proje dizininde olduğundan emin ol.
+# Dosya ismini .env (noktasıyla birlikte) yaz.
+
+# 🧠 API hatası:
+# API anahtarını doğru yazdığından emin ol.
+# Eğer Gemini kullanıyorsan: GEMINI_API_KEY
+# Eğer OpenAI kullanıyorsan: OPENAI_API_KEY
+
+# 🐍 Python sürümü:
+# Python 3.10 veya üzeri olmalı.
+python --version
+
+# 🌐 Gradio açılmıyor:
+# Güvenlik duvarı veya tarayıcı engelini kontrol et.
 
   
 
