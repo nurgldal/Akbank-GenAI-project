@@ -64,6 +64,7 @@ C --> D[Gemini 2.5 Flash Model]
 D --> E[Generated Answer]
 E --> F[Gradio UI Output]
 ```
+--- 
 
 ## 🧠 Elde Edilen Sonuçlar
 
