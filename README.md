@@ -98,8 +98,6 @@ Proje dizinine `.env` adında bir dosya oluştur ve içine kendi API anahtarın�
 - `GEMINI_API_KEY=senin_api_anahtarın`
 
 > ⚠️ Bu dosya gizli tutulmalıdır ve GitHub’a yüklenmemelidir.  
-> Eğer OpenAI kullanıyorsan:  
-> - `OPENAI_API_KEY=senin_api_anahtarın`
 
 ### 6️⃣ Uygulamayı Çalıştır
 - `python app.py`  
