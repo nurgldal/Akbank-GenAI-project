@@ -24,3 +24,41 @@ Chatbot, RAG mimarisiyle veri tabanında bulunan moda örneklerinden uygun içer
   Toplam 3193 adet belge oluşturulmuştur.  
 
 Örnek bir kayıt:
+USER_PROFILE: Klasik giyim tarzını seven bir kadın
+OCCASION: Yaz daveti için kombin önerisi
+RECOMMENDATION: İnce askılı midi elbise, hasır çanta ve açık topuklu sandalet önerilir.
+
+---
+## ⚙️ Kullanılan Teknolojiler
+
+| Bileşen | Teknoloji |
+|----------|------------|
+| 💬 LLM Modeli | Google Gemini 2.5 Flash |
+| 🔍 Framework | LangChain |
+| 🧠 Embedding Model | sentence-transformers/all-MiniLM-L6-v2 |
+| 🗂️ Vektör Veritabanı | ChromaDB |
+| 💻 Arayüz | Gradio |
+| ☁️ Ortam | Google Colab |
+
+---
+
+## 🧩 RAG (Retrieval-Augmented Generation) Mimarisi
+
+Proje, **RAG (Retrieval-Augmented Generation)** mimarisine dayanır.  
+Bu mimari sayesinde chatbot, yanıt vermeden önce veri tabanındaki ilgili moda örneklerini geri çağırır.
+
+**Aşamalar:**
+1. Kullanıcının sorusu alınır.  
+2. Chroma veritabanından en alakalı 4 belge (`k=4`) geri çağrılır.  
+3. Bu belgeler “context” olarak Gemini modeline gönderilir.  
+4. Gemini, Türkçe ve kısa bir yanıt üretir.  
+5. Yanıt, Gradio arayüzünde kullanıcıya gösterilir.
+
+**Mimari Şema:**
+```mermaid
+graph LR
+A[User Question] --> B[Retriever (ChromaDB)]
+B --> C[Relevant Context]
+C --> D[Gemini 2.5 Flash Model]
+D --> E[Generated Answer]
+E --> F[Gradio UI Output]
