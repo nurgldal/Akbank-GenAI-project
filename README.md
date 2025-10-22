@@ -122,7 +122,13 @@ veya
 
 
 ##  📸 Chatbot Çıktıları
-- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/03cfccfc-1dbd-4ecf-86d3-e80ba2c2d230" />
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/03cfccfc-1dbd-4ecf-86d3-e80ba2c2d230" />
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/049c1a85-7675-442d-acf3-4634074cde3e" />
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/58f652a3-db02-41cd-a261-c44741f6fedf" />
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ef9dc85-82aa-403b-9080-396b9b732b47" />
+
+
+
 
 
 
