@@ -55,10 +55,11 @@ Bu mimari sayesinde chatbot, yanıt vermeden önce veri tabanındaki ilgili moda
 5. Yanıt, Gradio arayüzünde kullanıcıya gösterilir.
 
 **Mimari Şema:**
-```mermaid
+``` mermaid
 graph LR
 A[User Question] --> B[Retriever (ChromaDB)]
 B --> C[Relevant Context]
 C --> D[Gemini 2.5 Flash Model]
 D --> E[Generated Answer]
 E --> F[Gradio UI Output]
+```
