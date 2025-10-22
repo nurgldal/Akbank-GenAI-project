@@ -122,6 +122,9 @@ veya
 
 
 ##  📸 Chatbot Çıktıları
+- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/03cfccfc-1dbd-4ecf-86d3-e80ba2c2d230" />
+
+
 
 
   
