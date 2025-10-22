@@ -24,9 +24,9 @@ Chatbot, RAG mimarisiyle veri tabanında bulunan moda örneklerinden uygun içer
   Toplam 3193 adet belge oluşturulmuştur.  
 
 Örnek bir kayıt:
-USER_PROFILE: Klasik giyim tarzını seven bir kadın
-OCCASION: Yaz daveti için kombin önerisi
-RECOMMENDATION: İnce askılı midi elbise, hasır çanta ve açık topuklu sandalet önerilir.
+- USER_PROFILE: Klasik giyim tarzını seven bir kadın
+- OCCASION: Yaz daveti için kombin önerisi
+- RECOMMENDATION: İnce askılı midi elbise, hasır çanta ve açık topuklu sandalet önerilir.
 
 ---
 ## ⚙️ Kullanılan Teknolojiler
