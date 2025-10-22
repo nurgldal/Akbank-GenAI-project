@@ -113,25 +113,15 @@ veya
 
 --- 
 ## ⚠️ Sorun Giderme 
-# ❌ ModuleNotFoundError:
-# Bağımlılık eksikse aşağıdaki komutu yeniden çalıştır.
-pip install -r requirements.txt
 
-# ⚠️ .env dosyası okunmuyor:
-# .env dosyasının proje dizininde olduğundan emin ol.
-# Dosya ismini .env (noktasıyla birlikte) yaz.
+| 🧩 Durum | 💡 Çözüm |
+|-----------|-----------|
+| ❌ **ModuleNotFoundError** | Bağımlılık eksikse aşağıdaki komutu yeniden çalıştır:<br><br>```bash<br>pip install -r requirements.txt<br>``` |
+| ⚠️ **.env dosyası okunmuyor** | - `.env` dosyasının proje dizininde olduğundan emin ol.<br>- Dosya adını **.env** (noktasıyla birlikte) yaz. |
+| 🧠 **API hatası** | - API anahtarını doğru yazdığından emin ol.<br>- Eğer **Gemini** kullanıyorsan: `GEMINI_API_KEY`<br>- Eğer **OpenAI** kullanıyorsan: `OPENAI_API_KEY` |
+| 🐍 **Python sürümü** | Python 3.10 veya üzeri olmalı.<br><br>```bash<br>python --version<br>``` |
+| 🌐 **Gradio açılmıyor** | Güvenlik duvarı veya tarayıcı engelini kontrol et. |
 
-# 🧠 API hatası:
-# API anahtarını doğru yazdığından emin ol.
-# Eğer Gemini kullanıyorsan: GEMINI_API_KEY
-# Eğer OpenAI kullanıyorsan: OPENAI_API_KEY
-
-# 🐍 Python sürümü:
-# Python 3.10 veya üzeri olmalı.
-python --version
-
-# 🌐 Gradio açılmıyor:
-# Güvenlik duvarı veya tarayıcı engelini kontrol et.
 
   
 
