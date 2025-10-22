@@ -65,3 +65,11 @@ D --> E[Generated Answer]
 E --> F[Gradio UI Output]
 ```
 
+## 🧠 Elde Edilen Sonuçlar
+
+- Chatbot, kullanıcı girdilerine göre tutarlı ve bağlamsal moda önerileri sunabilmektedir.
+
+- Türkçe dilinde yanıtlar kısa, anlaşılır ve profesyonel bir stil danışmanı üslubuna sahiptir.
+
+- Chroma veritabanı ile hızlı geri çağırma (retrieval) sağlanmıştır.
+
