@@ -123,5 +123,8 @@ veya
 | 🌐 **Gradio açılmıyor** | Güvenlik duvarı veya tarayıcı engelini kontrol et. |
 
 
+##  📸 Chatbot Çıktıları
+
+
   
 
